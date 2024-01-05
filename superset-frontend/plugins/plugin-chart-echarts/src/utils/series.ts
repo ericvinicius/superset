@@ -241,6 +241,7 @@ export function getLegendProps(
       : 'vertical',
     show,
     type,
+    selector: ['all', 'inverse']
   };
   switch (orientation) {
     case LegendOrientation.Left:
